@@ -295,8 +295,9 @@ h6 {
 
 /*--- CONTACT ---*/
 #contact {
-  background: url(" ")
-    no-repeat top center fixed;
+ /* background: url(" ")
+    no-repeat top center fixed;   */
+     background-color:#E0E0E0;
   background-size: cover;
 }
 
@@ -311,7 +312,7 @@ a.btn-default {
   text-align: left;
   margin: 0 5px 10px 0;
   position: relative;
-  background-color: #ffffff;
+  background-color: #E0E0E0;
   padding: 10px;
   transition: all 0.35s;
   padding: 0;
