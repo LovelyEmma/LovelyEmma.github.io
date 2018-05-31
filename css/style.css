@@ -122,12 +122,11 @@ h6 {
 }
 .navbar-default .navbar-nav {
   background: black;
-  margin-top: 0;
+  margin-top: -50px;
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   padding: 10px;
-  border-bottom: 1px solid #dfdfdf;
 }
 .navbar-default .navbar-nav > li > a.selected {
   color: #e64b36;
@@ -146,15 +145,15 @@ h6 {
 
 @media screen and (min-width: 768px) {
   .navbar-default {
-    height: 100px;
+    height: 50px;
   }
   .navbar-header {
     width: 100%;
   }
   .navbar-header .navbar-brand {
-    height: 70px;
-    padding: 40px 0 0 15px;
-    font-size: 42px;
+    height: 50px;
+    padding: 30px 0 0 15px;
+    font-size: 30px;
   }
   
   .navbar-default .navbar-nav > li > a {
@@ -168,12 +167,12 @@ h6 {
 
 @media screen and (min-width: 992px) {
   .navbar-default {
-    height: 120px;
+    height: 50px;
   }
   .navbar-header .navbar-brand {
-    height: 80px;
-    padding: 45px 0 0 15px;
-    font-size: 48px;
+    height: 50px;
+    padding: 20px 0 0 15px;
+    font-size: 23px;
   }
   .navbar-default .navbar-nav > li > a {
     padding: 10px 25px 9px 0;
@@ -294,7 +293,7 @@ h6 {
 
 /*--- CONTACT ---*/
 #contact {
-  background: url("https://github.com/LovelyEmma/PHP/blob/master/facebook_logos_PNG19750.png")
+  background: url(" ")
     no-repeat top center fixed;
   background-size: cover;
 }
@@ -393,4 +392,28 @@ a.btn-default:hover:after {
 #about{
   background-color:#E0E0E0;
 }
-
+#footprint {
+    text-align: center;
+    padding: 20px 0 30px;
+  }
+  #main-footer{
+  text-align: center;
+  color: #333;
+  width: 100%;
+}
+.fix-me{
+  position: fixed;
+  top:300px;
+  color: white;
+  background-color: black;
+  font-family: Lato, sans-serif;
+  padding:5px;
+}
+.fix-me-t {
+  position: fixed;
+  top:350px;
+  color: white;
+  background-color: #FF5252;
+  font-family: Lato, sans-serif;
+  padding:3px;
+}
