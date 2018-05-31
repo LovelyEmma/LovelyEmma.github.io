@@ -131,6 +131,7 @@ h6 {
 .navbar-default .navbar-nav > li > a.selected {
   color: #e64b36;
 }
+/*--- nav bar---*/
 .navbar-default
   a.navbar-brand:hover
   .navbar-default
@@ -139,6 +140,7 @@ h6 {
   > a:hover {
   background-color: #dfdfdf;
 }
+/*--- nav name---*/
 .navbar-default .navbar-brand:hover {
   color: #e64b36;
 }
@@ -396,11 +398,13 @@ a.btn-default:hover:after {
     text-align: center;
     padding: 20px 0 30px;
   }
+  /*--- footer---*/
   #main-footer{
   text-align: center;
   color: #333;
   width: 100%;
 }
+/*--- fixbutton---*/
 .fix-me{
   position: fixed;
   top:300px;
@@ -408,6 +412,10 @@ a.btn-default:hover:after {
   background-color: black;
   font-family: Lato, sans-serif;
   padding:5px;
+  animation: myfirst 3s;
+-moz-animation: myfirst 3s; /* Firefox */
+-webkit-animation: myfirst 3s;  /* Safari 和 Chrome */
+-o-animation: myfirst 3s; /* Opera */
 }
 .fix-me-t {
   position: fixed;
@@ -416,4 +424,40 @@ a.btn-default:hover:after {
   background-color: #FF5252;
   font-family: Lato, sans-serif;
   padding:3px;
+  animation: myfirst 5s;
+-moz-animation: myfirst 5s; /* Firefox */
+-webkit-animation: myfirst 5s;  /* Safari 和 Chrome */
+-o-animation: myfirst 5s; /* Opera */
+}
+/*--- keyframers---*/
+@keyframes myfirst
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
 }
