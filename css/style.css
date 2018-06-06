@@ -255,6 +255,10 @@ h6 {
 .content-section .thumbnail p {
   line-height: 24px;
 }
+.content-section .thumbnail img {
+  width: 100%;
+  height: 350px;
+}
 .content-section .thumbnail:hover h4,
 .content-section .thumbnail:hover p {
   color: #afafaf;
