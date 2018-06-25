@@ -183,7 +183,7 @@ h6 {
 
 /*--- HOME ---*/
 #home {
-  background:url("http://a4.topitme.com/o/201007/21/12797021246435.jpg")
+  background:url(../images/show.jpg)
     no-repeat center center fixed;
   background-size: cover;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
