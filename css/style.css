@@ -399,6 +399,21 @@ a.btn-default:hover:after {
 #about{
   background-color:#E0E0E0;
 }
+#about h1{
+color: #FF5252;
+  font-weight: 400;
+  font-size: 50px;
+  display: inline-block;
+}
+#about h1:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #FF5252;
+  padding-top: 3px;
+}
+#about p strong{
+  color: #FF5252;
+}
 #about img{
   margin-top:100px;
   margin-bottom:20px;
@@ -409,6 +424,9 @@ border-radius:25px;
 }
 #about span{
   font-size:35px;
+  color: #FF5252;
+  margin-left: 25%;
+  border-bottom: 1px solid #FF5252;
 }
 #footprint {
     text-align: center;
@@ -477,9 +495,52 @@ border-radius:25px;
 50%  {background: blue;}
 100% {background: green;}
 }
-.emoji {
-  width: 1.5em;
-  height: 1.5em;
+
+.photoshop-section h1{
+  color: #FF5252;
+  font-weight: 400;
+  font-size: 50px;
   display: inline-block;
-  margin-bottom: -0.25em;
-  }
+
+}
+.photoshop-section h1:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #FF5252;
+  padding-top: 3px;
+}
+.photoshop-section p.lead {
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 1.35em;
+  margin-bottom: 25px; 
+
+}
+
+#projects h1{
+  color: #FF5252;
+  font-weight: 400;
+  font-size: 50px;
+  display: inline-block;
+}
+#projects h1:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #FF5252;
+  padding-top: 3px;
+}
+#contact{
+  margin-top: 5%;
+}
+#contact h1{
+  color: #FF5252;
+  font-weight: 400;
+  font-size: 50px;
+  display: inline-block;
+}
+#contact h1:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #FF5252;
+  padding-top: 3px;
+}
