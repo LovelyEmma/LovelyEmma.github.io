@@ -477,3 +477,9 @@ border-radius:25px;
 50%  {background: blue;}
 100% {background: green;}
 }
+.emoji {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  margin-bottom: -0.25em;
+  }
