@@ -517,18 +517,6 @@ border-radius:25px;
 
 }
 
-#projects h1{
-  color: #FF5252;
-  font-weight: 400;
-  font-size: 50px;
-  display: inline-block;
-}
-#projects h1:after {
-  content: "";
-  display: block;
-  border-bottom: 1px solid #FF5252;
-  padding-top: 3px;
-}
 #contact{
   margin-top: 5%;
 }
