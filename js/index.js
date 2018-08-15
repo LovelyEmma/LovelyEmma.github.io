@@ -1,36 +1,7 @@
-$(document).ready(function(){ 
-	$(".scroll").click(function(event){
-		event.preventDefault();
-		$("html,body").animate({scrollTop:$(this.hash).offset().top}, 500);
-		$('.navbar-default a').removeClass('selected');
-		$(this).addClass('selected');
-    	});
+$(function(){
+  
+  var backgroundImg = [
+    'http://sfwallpaper.com/images/natural-wallpapers-7.jpg',
+'https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg?cs=srgb&dl=landscape-mountains-nature-592077.jpg&fm=jpg']; 
+$('body').css('background-image','url('+ backgroundImg[0]+ ')');
 });
- $(function(){
-        // 初始化轮播
-        $(".start-slide").click(function(){
-            $("#myCarousel").carousel('cycle');
-        });
-        // 停止轮播
-        $(".pause-slide").click(function(){
-            $("#myCarousel").carousel('pause');
-        });
-        // 循环轮播到上一个项目
-        $(".prev-slide").click(function(){
-            $("#myCarousel").carousel('prev');
-        });
-        // 循环轮播到下一个项目
-        $(".next-slide").click(function(){
-            $("#myCarousel").carousel('next');
-        });
-        // 循环轮播到某个特定的帧
-        $(".slide-one").click(function(){
-            $("#myCarousel").carousel(0);
-        });
-        $(".slide-two").click(function(){
-            $("#myCarousel").carousel(1);
-        });
-        $(".slide-three").click(function(){
-            $("#myCarousel").carousel(2);
-        });
-    });
