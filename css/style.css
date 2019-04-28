@@ -22,7 +22,7 @@ background: no-repeat center center fixed;
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
-  .pageTwo {
+  .pageTwo p{
     font-size: 1.5em;
   }
     .pageTwo span{
