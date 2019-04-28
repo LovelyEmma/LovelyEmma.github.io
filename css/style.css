@@ -10,7 +10,7 @@ background: no-repeat center center fixed;
 }
 
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* If the screen size is 601px wide or more, set the font-size  to 1em */
 @media screen and (min-width: 601px) {
   .pageTwo p {
     font-size: 1em;
@@ -20,7 +20,7 @@ background: no-repeat center center fixed;
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px wide or less, set the font-size  to 1.5em */
 @media screen and (max-width: 600px) {
   .pageTwo p{
     font-size: 1.5em;
@@ -104,7 +104,7 @@ img{
 .btn{
   box-shadow: 5px 5px 5px black;
 }
-.block{
+.container{
   background-color:rgba(0,0,0,.8);
   color:white;
   width:90%;
