@@ -7,6 +7,18 @@ background: no-repeat center center fixed;
  background-size:cover;
  color:white;
 }
+
+@media (min-width: @screen-sm-min) { 
+
+body{
+font-family:Lobster;
+font-size: 5em;
+}
+
+
+
+
+ }
 .projects-wrap{
   background-color:black;
   border-radius:15px;
@@ -75,8 +87,8 @@ span{
 }
 .me{
   border-radius:5px;
-  width:30%;
-  height:30%;
+  width:50%;
+  height:50%;
   box-shadow: 5px 5px 5px black;
 }
 img{
