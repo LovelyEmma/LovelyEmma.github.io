@@ -28,13 +28,15 @@ background: no-repeat center center fixed;
     .pageTwo span{
     font-size: 1.5em;
   }
+
 }
 .projects-wrap{
   background-color:black;
   border-radius:15px;
   color:#024471;
   text-align:center;
-  margin-left:25%;
+  margin-left:auto;
+  margin-right: auto;
 }
 .projects-wrap:hover{
   background-color:#024471;
