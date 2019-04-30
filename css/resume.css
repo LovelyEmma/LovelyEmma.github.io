@@ -74,6 +74,9 @@ p.lead {
 .social-icons a:hover {
   background-color: #BD5D38;
 }
+.social-icons:hover {
+  background-color: #BD5D38;
+}
 
 .dev-icons {
   font-size: 3rem;
