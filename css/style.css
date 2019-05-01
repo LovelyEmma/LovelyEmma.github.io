@@ -1,3 +1,17 @@
+.pb{
+    -webkit-font-smoothing:
+    
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.pb:before {
+    content: "\f4e4";
+}
+
+i.pb{}
 
 .card {
   position: relative;
