@@ -1,17 +1,4 @@
-.pb{
-    -webkit-font-smoothing:
-    
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-.pb:before {
-    content: "\f4e4";
-}
 
-i.pb{}
 
 .card {
   position: relative;
@@ -54,10 +41,26 @@ i.pb{}
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.skill i:{
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+
+}
+.skill i:hover{
+  color: #aa4d01;
 }
